@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.main-content {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.contenido h1 {
+    font-size: 32px;
+}
+
+.contenido p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.redes-sociales {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes-sociales h2 {
+    font-size: 24px;
+}
+
+.redes {
+    margin-top: 20px;
+}
+
+.redes a {
+    margin-right: 10px;
+}
+
+.redes a img {
+    width: 30px;
+    height: 30px;
+}
+
+.new-section {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.new-content {
+    flex-grow: 1;
+}
+
+.new-content h2 {
+    font-size: 24px;
+}
+
+.new-content p {
+    margin-top: 10px;
+}
+
+.new-image img {
+    height: auto;
+    max-height: 300px;
+    margin-left: 5%;
+}
